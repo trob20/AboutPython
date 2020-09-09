@@ -1,0 +1,183 @@
+#container{
+    font-family: Arial, sans-serif;
+    width: 960px;
+    height: 1024px;
+}
+#top{
+    width: 960px;
+    height: auto;
+    background-color: #2a4a6b;
+    color: whitesmoke;
+    border: 2px solid #0c2036;
+    border-style: outset;
+}
+#python {
+    width: 380px;
+    height: 110px;
+    margin: 5px 170px 0px 10px;
+}
+#topRight {
+    width: 380px;
+    height: 110px;
+    text-align: right;
+    margin: 0px 5px 0px 0px;
+    display: inline-block;
+    vertical-align: top; /* Changes the default of baseline (bottom alignment) */
+}
+#size {
+    margin-bottom: 5px;
+    margin-right: 35px;
+}
+.span1{
+    color: yellow;
+    text-decoration: underline;
+}
+.span3{
+    color: black;
+}
+#searchWrap {
+    top: 65px;
+    right: 20px;
+    width: 325px;
+    height: 55px;
+    background-color: #3c3f42;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 5px black;
+    display: inline-block;
+}
+#search {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-style: inset;
+}
+#btn {
+    width: 50px;
+    height: 35px;
+    background-color: #2a4a6b;
+    color: whitesmoke;
+    border: 2px solid #ccc;
+    border-style: outset;
+    border-radius: 7px;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul.nav {
+    width: 80%;
+    height: auto;
+    background-color: #366da3;
+    color: whitesmoke;
+    border-radius: 7px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 2px 2px 5px black;
+}
+ul.nav li {
+  display: inline-block;
+}
+#middle {
+    width: 960px;
+    height: 360px;
+    color: whitesmoke;
+    margin: auto 50px auto 50px;
+}
+ul.sidebar {
+    width: 170px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; /* Changes the default of baseline (bottom alignment) */ 
+}
+ul.sidebar a {
+    color: whitesmoke;
+}
+ul.sidebar li::before {
+  content: "\00bb";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: yellow; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-bottom: 12px;
+}
+ul.sidebar #about #zen {
+display: inline-block;
+}
+#about {
+    text-align: center;
+    width: 625px;
+    height: 110px;
+    display: inline-block;
+}
+.zen{
+    color: yellow;
+    font-size: large;
+    font-style: italic;
+}
+#bottom {
+    text-align: center;
+}
+hr {
+    background-color: #6798c9;
+    height: 3px;
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+#start p, #app p {
+    padding: 0px;
+    margin: 5px;
+}
+#startWrapper, #appWrapper {
+    width: 375px;
+    height: auto;
+    margin-right: 50px;
+    display: inline-block;
+}
+#start, #app {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top; /* Changes the default of baseline (bottom alignment) */ 
+    padding-right: 20px;
+}
+.span2 a {
+    text-decoration: none;
+    font-size: small;
+}
+ul.guide a, #foot a, .span2 a{
+    color: #6798c9;
+}
+ul.guide li {
+  list-style-type: square;
+
+}
+footer {
+    text-align: center;
+    background-color: #2a4a6b;
+    color: #6798c9;
+    background: linear-gradient(to bottom, #2a4a6b 0%, #406c99 100%);
+}
+#foot {
+    padding: 50px 150px 15px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+  text-decoration: none;
+}
+
+#copyright {
+    font-size: x-small;
+    display: block;
+    margin: 0px;
+    padding-bottom: 15px;
+}
